@@ -1,9 +1,19 @@
-# Проект «API для Yatube»
+# Проект API
 ## Описание
-Яндекс Практикум. Спринт 9. Итоговый проект. API для Yatube.
+Создание API для проекта на основе документации представленной в формате Redoc.
 
-С помощью api_yatube можно запрашивать данные о постах, группах, 
-комментариях в социальной сети Yatube, а также создавать новые.
+С помощью API можно работать с проектом без посещения сайта.
+
+## Технологии
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
+
+- [Python 3.9](https://www.python.org/downloads/)
+- [Django 3.2.3](https://www.djangoproject.com/download/)
+- [Django REST framework 3.12.4](https://pypi.org/project/djangorestframework/#files)
+- [Djoser 2.1.0](https://djoser.readthedocs.io/en/latest/)
+- [Simple JWT 4.7.2](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
 
 ## Функционал
 
@@ -130,8 +140,10 @@ git clone
 
 
 ## Ресурсы
-
-```python
-# Документаия проекта
+Документация проекта
+```
 http://127.0.0.1:8000/redoc/
 ```
+
+## Автор
+Кузнецов Юрий [GitHub](https://github.com/yvk3)
